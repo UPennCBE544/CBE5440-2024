@@ -38,6 +38,7 @@ Launch Xming. You will always need to have this open in order to forward graphic
 
 ### Installing ASE:
 In terminal: conda install conda-forge::ase
+In terminal: conda install tk
 Confirm ASE works by typing ase-gui
 
 ### Installing GPAW (an example ASE calculator):
