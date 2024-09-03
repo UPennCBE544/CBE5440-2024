@@ -49,4 +49,8 @@ In terminal: jupyter notebook
 
 <a name='logging'></a>
 
+## Playing around with ASE
+Download the ASE_Practice.ipynb() file and open in jupyter notebook. We will fill this out together.
+ 
+
 
