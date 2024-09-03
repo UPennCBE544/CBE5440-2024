@@ -50,7 +50,7 @@ In terminal: jupyter notebook
 <a name='logging'></a>
 
 ## Playing around with ASE
-Download the ASE_Practice.ipynb() file and open in jupyter notebook. We will fill this out together.
+Download the ASE_Practice.ipynb(https://github.com/UPennCBE544/CBE5440-2024/blob/main/ASE_Practice-Empty.ipynb) file and open in jupyter notebook. We will fill this out together.
  
 
 
