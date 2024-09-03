@@ -41,7 +41,7 @@ In terminal: conda install conda-forge::ase
 Confirm ASE works by typing ase-gui
 
 ### Installing GPAW (an example ASE calculator):
-In terminal: conda install conda-forge::gpaw
+In terminal: python3 -m pip install gpaw
 
 ### Installing JupyterNotebook:
 In terminal: jupyter notebook
