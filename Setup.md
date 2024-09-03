@@ -5,15 +5,7 @@ permalink: /Clusters/
 ---
 
 # Getting Started
-1. [Logging Into the Computing Clusters](../Clusters/)
-2. [Basic UNIX](../UNIX/)
-3. [Python](../Python/)
-
-____
-
-## Logging Into the Computing Clusters
-
-Once your account on Anvil has been activated, follow the instructions and tests to make sure everything is set up properly and functional.
+We are going to set up our local terminals to do some practice with Python coding and introduce ASE
 
 ## Contents
 1. [Installation](#installation)
@@ -23,25 +15,30 @@ Once your account on Anvil has been activated, follow the instructions and tests
 
 <a name='installation'></a>
 
-## Installation
-
-### Mac OSX
+## Installations
+### Installing a display server:
+#### Mac OSX
 Download and install:
 
 * [XQuartz](http://www.xquartz.org/)
 
-
-### Windows
+#### Windows
 
 Download and install:
 
 * [PuTTY](http://www.putty.org/)
 * [Xming](http://sourceforge.net/projects/xming/) (Note: disable automatic installation of PuTTY with Xming. The above installer is a newer version)
 
+### Installing Anaconda:
+1. Go to this link: https://www.anaconda.com/download/success#downloads
+2. Download the installer
+3. Open the pkg and install
 
-### Linux (Debian-based, e.g. Ubuntu)
-From the terminal
-____
+### Installing ASE:
+In terminal: conda install conda-forge::ase
+
+### Installing JupyterNotebook:
+In terminal: jupyter notebook
 
 <a name='logging'></a>
 
