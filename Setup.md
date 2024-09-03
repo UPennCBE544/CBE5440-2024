@@ -40,6 +40,9 @@ Launch Xming. You will always need to have this open in order to forward graphic
 In terminal: conda install conda-forge::ase
 Confirm ASE works by typing ase-gui
 
+### Installing GPAW (an example ASE calculator):
+In terminal: conda install conda-forge::gpaw
+
 ### Installing JupyterNotebook:
 In terminal: jupyter notebook
 
