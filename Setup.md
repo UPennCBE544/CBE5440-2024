@@ -26,7 +26,7 @@ Download and install:
 
 Download and install:
 
-* [PuTTY](http://www.putty.org/)
+* [MobaXterm]([http://www.putty.org/](https://mobaxterm.mobatek.net/download.html))
 * [Xming](http://sourceforge.net/projects/xming/) (Note: disable automatic installation of PuTTY with Xming. The above installer is a newer version)
 
 Launch Xming. You will always need to have this open in order to forward graphical windows from the external clusters.
