@@ -42,6 +42,7 @@ In terminal: conda install tk
 Confirm ASE works by typing ase gui
 
 ### Installing JupyterNotebook:
+In terminal: pip install notebook
 In terminal: jupyter notebook
 
 <a name='logging'></a>
