@@ -1,4 +1,3 @@
-<img width="958" alt="Screenshot 2024-10-22 at 7 23 03 PM" src="https://github.com/user-attachments/assets/dc8f80d2-f07c-4d43-8055-ea16aec4a15b">---
 layout: page
 mathjax: true
 permalink: /Project/
@@ -53,6 +52,9 @@ Goal: The main scientific goal is to probe the oxygen evolution reaction (OER) c
 
 ## Plan ##
 
+<img width="958" alt="Screenshot 2024-10-22 at 7 23 03 PM" src="https://github.com/user-attachments/assets/dc8f80d2-f07c-4d43-8055-ea16aec4a15b">---
+
+More detailed plan:
 1. We will break into groups of 3 students
    
 3. Each group will be assigned a series of surfaces they will be responsible for
@@ -71,9 +73,4 @@ Goal: The main scientific goal is to probe the oxygen evolution reaction (OER) c
 5. Relax a surface
 6. k-point check (5x5x1) (15x15x1) (25x25x1)
 7. 
-
-
-![Screenshot](https://github.com/user-attachments/assets/d5399835-448e-4b1b-938b-0e50e95db1bc)
-
-
 
