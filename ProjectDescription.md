@@ -24,7 +24,7 @@ Goal: The main scientific goal is to probe the oxygen evolution reaction (OER) c
 
 <a name='MO'></a>
 
-### Motivation ###
+## Motivation ##
 
 - **Catalyst Design for Functional Efficiency**: Selecting catalysts with the right functional properties is crucial for enabling manufacturable technologies. This includes considerations for cost efficiency, performance, durability, raw material abundance, and environmental impact. This project will specifically lend itself toward oulining a framework for studying activity and stability of nanoparticles. 
 
@@ -36,7 +36,7 @@ Goal: The main scientific goal is to probe the oxygen evolution reaction (OER) c
 
 <a name='Terms'></a>
 
-### Terminology ###
+## Terminology ##
 - **Surface Facet Miller Index**: The Miller index (hkl) describes the orientation of a crystal plane by indicating how it cuts through the unit cell of the crystal structure
 
 - **Termination**: Termination refers to the specific arrangement and coordination of lattice metals and their corresponding oxygens at a surface. Different terminations, whether metal-terminated or oxygen-terminated, significantly affect surface properties, including reactivity and stability, and can result from various preparation methods.
@@ -51,7 +51,7 @@ Goal: The main scientific goal is to probe the oxygen evolution reaction (OER) c
 
 <a name='Plan'></a>
 
-### Plan ###
+## Plan ##
 
 1. We will break into groups of 3 students
    
