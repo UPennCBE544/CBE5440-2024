@@ -30,12 +30,19 @@ Goal: The main scientific goal is to probe the oxygen evolution reaction (OER) c
 <a name='Plan'></a>
 
 1. We will break into groups of 3 students
-2. Each group will be assigned a series of surfaces they will be responsible for
+   
+3. Each group will be assigned a series of surfaces they will be responsible for
+   
        a. {(0,1,2),(0,2,1),(2,1,0)}
+
        b. {(2,2,1),(3,3,1),(4,4,1)}
+
        c. {(1,2,2),(1,3,3),(1,4,4)}
+
        d. {(1,1,2),(1,1,3),(1,1,4)}
+
        e. {(2,1,1),(3,1,1),(4,1,1)}
-3. 
+
+4. 
 
 
