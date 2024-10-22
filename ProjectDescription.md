@@ -24,7 +24,7 @@ Goal: The main scientific goal is to probe the oxygen evolution reaction (OER) c
 
 <a name='MO'></a>
 
-## Motivation ##
+### Motivation ###
 
 - **Catalyst Design for Functional Efficiency**: Selecting catalysts with the right functional properties is crucial for enabling manufacturable technologies. This includes considerations for cost efficiency, performance, durability, raw material abundance, and environmental impact. This project will specifically lend itself toward oulining a framework for studying activity and stability of nanoparticles. 
 
