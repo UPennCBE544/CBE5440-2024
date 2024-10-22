@@ -7,22 +7,24 @@ permalink: /Project/
 
 1. [Introduction](#intro)
 2. [Motivation](#MO)
-3. [Plan](#Plan)
+3. [Terms to Know](#Terms)
+4. [Plan](#Plan)
 
 Turn in your final report by emailing a PDF file to:
 
 ```
 alevoj@seas.upenn.edu, rthatch@seas.upenn.edu
 ```
+
 <a name='intro'></a>
 
 ## Project Introduction ##
 
 Goal: The main scientific goal is to probe the oxygen evolution reaction (OER) chemistry on higher Miller index surface facets of RuO<sub>2</sub> by simulating the adsorption of O, OH, H, OOH, OO, and H<sub>2</sub>O on various active sites. With the data generated, we aim to construct thermodynamic stability diagrams relative to bulk-cleaved surfaces and identify the most stable surface configurations as my group frequently does. Note, we will not consider defected surfaces due to the significantly increased workload they would impose. Students will compare their simulated nanoparticle models with experimentally derived nanoparticles, providing insights into the stability and morphology of nanoparticles during electrochemical processes.
 
-### Motivation ###
-
 <a name='MO'></a>
+
+### Motivation ###
 
 - **Catalyst Design for Functional Efficiency**: Selecting catalysts with the right functional properties is crucial for enabling manufacturable technologies. This includes considerations for cost efficiency, performance, durability, raw material abundance, and environmental impact. This project will specifically lend itself toward oulining a framework for studying activity and stability of nanoparticles. 
 
@@ -32,6 +34,7 @@ Goal: The main scientific goal is to probe the oxygen evolution reaction (OER) c
 
 - **Experimental Comparison and Data Validation**: By aligning nanoparticle shapes, surface facets, and catalytic behaviors observed in simulations with those measured experimentally, we can validate our models and refine predictive accuracy. This comparison helps identify discrepancies, improve our understanding of real-world conditions, and build confidence in the applicability of the computational framework for guiding experimental design and optimizing catalyst performance
 
+<a name='Terms'></a>
 
 ### Terminology ###
 - **Surface Facet Miller Index**: The Miller index (hkl) describes the orientation of a crystal plane by indicating how it cuts through the unit cell of the crystal structure
@@ -46,10 +49,9 @@ Goal: The main scientific goal is to probe the oxygen evolution reaction (OER) c
 
 - **Wulff's Theorem**: This theorem states that the shape of a crystal/nanoparticle at equilibrium is determined by the minimization of its total surface energy. The equilibrium shape (also known as the **Wulff Construction**) is the convex hull of the surfaces with the lowest energies.
 
+<a name='Plan'></a>
 
 ### Plan ###
-
-<a name='Plan'></a>
 
 1. We will break into groups of 3 students
    
