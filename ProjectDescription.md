@@ -5,6 +5,10 @@ permalink: /Project/
 ---
 ## Course Project Logistics ##
 
+1. [Introduction](#intro)
+2. [Motivation](#MO)
+3. [Plan](#Plan)
+
 Turn in your final report by emailing a PDF file to:
 
 ```
