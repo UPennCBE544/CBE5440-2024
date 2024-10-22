@@ -32,6 +32,22 @@ Goal: The main scientific goal is to probe the oxygen evolution reaction (OER) c
 
 - **Experimental Comparison and Data Validation**: By aligning nanoparticle shapes, surface facets, and catalytic behaviors observed in simulations with those measured experimentally, we can validate our models and refine predictive accuracy. This comparison helps identify discrepancies, improve our understanding of real-world conditions, and build confidence in the applicability of the computational framework for guiding experimental design and optimizing catalyst performance
 
+
+### Terminology ###
+- **Surface Facet Miller Index**: The Miller index (hkl) describes the orientation of a crystal plane by indicating how it cuts through the unit cell of the crystal structure
+
+- **Termination**: Termination refers to the specific arrangement and coordination of lattice metals and their corresponding oxygens at a surface. Different terminations, whether metal-terminated or oxygen-terminated, significantly affect surface properties, including reactivity and stability, and can result from various preparation methods.
+
+- **Symmetric Surface**: A symmetric surface is characterized by an arrangement of atoms that is the same on both sides of the surface plane, exhibiting inversion symmetry. They may not always be stoichiometric, meaning the atomic ratios (e.g., metal to oxygen) can differ from the bulk composition.
+
+- **Asymmetric Surface**: An asymmetric surface tends to lack inversion symmetry of atoms on both sides, but not always. We will define the clean (lacking adsorbates) asymmetric surfaces to be stoichiometric, maintaining a specific metal-to-oxygen ratio overall.
+
+- **Surface Energy**: This can be thought of as the energy for the specific modeled surface to exist. It indicates the thermodynamic stability of a surface. Surface energy is influenced by surface geometry, termination, and adsorbates.
+$$
+\gamma_{(hkl)}(pH,U) = -\frac{E_{slab} + N \cdot E_{bulk} - \sum_{a} n_{a} \cdot \mu_{a}^{\text{REF}}(pH,U)}{2A}
+$$
+
+
 ### Plan ###
 
 <a name='Plan'></a>
@@ -50,6 +66,9 @@ Goal: The main scientific goal is to probe the oxygen evolution reaction (OER) c
 
        e. {(2,1,1),(3,1,1),(4,1,1)}
 
-4. 
+4. Build a surface
+5. Relax a surface
+6. k-point check (5x5x1) (15x15x1) (25x25x1)
+7. 
 
 
