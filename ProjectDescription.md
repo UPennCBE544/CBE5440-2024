@@ -80,20 +80,21 @@ We will break into groups of 3 students and each group will be assigned a series
            1. Build a facet that is approximately N=20  
            2. Delete atoms until the facet has the desired termination on both sides
            3. Constrain a stochiometric set of the center atoms
-           4. Check that the surface is inversion symmetric
-           5. Save this surface based on number of bulk units in the slab
-           6. Delete the **outside** 2 Ruthenium and 4 Oxygen from each side of the surface. Save this surface based on the new number of bulk units in the slab. Do this so that you have a total of 4 of the same facet+termination surfaces at different sizes.
-           7. Relax the surfaces
+           4. Reset the vacuum to be 10 angstroms on each side of the slab
+           5. Check that the surface is inversion symmetric
+           6. Save this surface based on number of bulk units in the slab
+           7. Delete the **outside** 2 Ruthenium and 4 Oxygen from each side of the surface. Save this surface based on the new number of bulk units in the slab. Do this so that you have a total of 4 of the same facet+termination surfaces at different sizes.
+           8. Relax the surfaces
 
 2. Generate Asymmetric Surface Facet - 
 
-3. Adsorb - 
+3. Adsorb -
 
-4. Generate Pourbaix Diagram - 
+5. Generate Pourbaix Diagram - 
 
-5. Copy most stable adsorbate configuration - 
+6. Copy most stable adsorbate configuration - 
    - k-point convergence test: (1x1x1) (5x5x1) (15x15x1) (25x25x1)
 
-6. Calculate Surface Energy - 
+7. Calculate Surface Energy - 
 
 
