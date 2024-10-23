@@ -71,7 +71,7 @@ We will break into groups of 3 students and each group will be assigned a series
 
        e. {(2,1,1),(3,1,1),(4,1,1)}
 
-0. Prep Work - bulk
+0. Prep Work - we need a rutile RuO<sub>2</sub> bulk that is optimized
 
 1. Generate Symmetric Surface Facet - 
       - Background: A surface facet is created by performing cleavage on a bulk material parallel to the miller index plane. As you can see from the image below, different surface terminations can be cut for the facets. For the high miller index facets we will be doing, many different terminations exist for each facet. We will need to make many of these terminations (at least the high oxygen coverage termination and the complementary termination) and select the lowest surface energy termination to be our reference moving forward.
@@ -82,7 +82,7 @@ We will break into groups of 3 students and each group will be assigned a series
            3. Constrain a stochiometric set of the center atoms
            4. Check that the surface is inversion symmetric
            5. Save this surface based on number of bulk units in the slab
-           6. Delete the outside 2 Ruthenium and 4 Oxygen from each side of the surface and save this surface. Save this surface based on the new number of bulk units in the slab. Do this so that you have a total of 4 of the same facet+termination surfaces at different sizes.
+           6. Delete the **outside** 2 Ruthenium and 4 Oxygen from each side of the surface. Save this surface based on the new number of bulk units in the slab. Do this so that you have a total of 4 of the same facet+termination surfaces at different sizes.
            7. Relax the surfaces
 
 2. Generate Asymmetric Surface Facet - 
