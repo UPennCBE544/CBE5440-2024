@@ -61,11 +61,11 @@ For each symmetric Surface we need to go through the following path.
 
 We will break into groups of 3 students and each group will be assigned a series of surfaces they will be responsible for.
    
-       a. {(0,1,2),(0,2,1),(2,1,0)}
+       a. {(2,2,1),(3,3,1),(4,4,1)}
 
-       b. {(2,2,1),(3,3,1),(4,4,1)}
+       b. {(1,2,2),(1,3,3),(1,4,4)}
 
-       c. {(1,2,2),(1,3,3),(1,4,4)}
+       c. {(0,1,2),(0,2,1),(2,1,0)}
 
 0. Prep Work - we need a rutile RuO<sub>2</sub> bulk that is optimized
 
