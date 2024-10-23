@@ -67,10 +67,6 @@ We will break into groups of 3 students and each group will be assigned a series
 
        c. {(1,2,2),(1,3,3),(1,4,4)}
 
-       d. {(1,1,2),(1,1,3),(1,1,4)}
-
-       e. {(2,1,1),(3,1,1),(4,1,1)}
-
 0. Prep Work - we need a rutile RuO<sub>2</sub> bulk that is optimized
 
 1. Generate Symmetric Surface Facet - 
