@@ -77,18 +77,12 @@ We will break into groups of 3 students and each group will be assigned a series
       - Build the surface facet - A surface facet is created by performing cleavage on a bulk material parallel to the miller index plane. As you can see from the image below, different surface terminations can be cut for the facets. For the high miller index facets we will be doing, many different terminations exist for each facet. We will need to make many of these terminations (at least the high oxygen coverage termination and the complementary termination) and select the lowest surface energy termination to be our reference moving forward.
          - <img width="400" alt="Screenshot 2024-10-22 at 9 26 37 PM" src="https://github.com/user-attachments/assets/cd930976-0b4e-47f4-99cf-2d48ab1fafe4">
          
-         - Build a facet that is approximately N=20
-           
-         - delete atoms until the facet has the desired termination on both sides
-           
-         - Constrain a stochiometric set of the center atoms
-
-         - check that the surface is inversion symmetric
-
-         - Save this surface based on number of bulk units in the slab
-
-         - Delete the outside 2 Ruthenium and 4 Oxygen from each side of the surface and save this surface. Save this surface based on the new number of bulk units in the slab. Do this so that you have a total of 4 of the same facet+termination surfaces at different sizes.
-
+      - Build a facet that is approximately N=20  
+      - delete atoms until the facet has the desired termination on both sides
+      - Constrain a stochiometric set of the center atoms
+      - check that the surface is inversion symmetric
+      - Save this surface based on number of bulk units in the slab
+      - Delete the outside 2 Ruthenium and 4 Oxygen from each side of the surface and save this surface. Save this surface based on the new number of bulk units in the slab. Do this so that you have a total of 4 of the same facet+termination surfaces at different sizes.
       - Relax the surfaces
 
 2. Generate Asymmetric Surface Facet - 
