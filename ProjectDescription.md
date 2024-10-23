@@ -1,3 +1,4 @@
+---
 layout: page
 mathjax: true
 permalink: /Project/
@@ -44,7 +45,7 @@ Goal: The main scientific goal is to probe the oxygen evolution reaction (OER) c
 
 - **Asymmetric Surface**: An asymmetric surface tends to lack inversion symmetry of atoms on both sides, but not always. We will define the clean (lacking adsorbates) asymmetric surfaces to be stoichiometric, maintaining a specific metal-to-oxygen ratio overall.
 
-- **Surface Energy ($\gamma_{(hkl)}$)**: This can be thought of as the energy for the specific modeled surface to exist. It indicates the thermodynamic stability of a surface. Surface energy is influenced by surface geometry, termination, and adsorbates. $\gamma_{(hkl)}(pH,U) = -\frac{E_{slab} + N \cdot E_{bulk} - \sum_{i} \delta n_{i} \cdot \mu_{i}^{\text{REF}}(pH,U)}{2A}$
+- **Surface Energy ($\gamma_{(hkl)}$)**: This can be thought of as the energy for the specific modeled surface to exist. It indicates the thermodynamic stability of a surface. Surface energy is influenced by surface geometry, termination, and adsorbates. $\gamma_{(hkl)}(pH,U) = -\frac{E_{slab} + N \cdot E_{bulk} - \sum_{i} \delta n_{i} \cdot \mu_{i}^{\text{REF}}(pH,U)}{2A}$. Note: $E_{bulk}$ is calculated by generating 4 of the same surface facet+termination each with different amounts of "bulk" and plotting total potential energy vs system size and getting the slope.
 
 - **Wulff's Theorem**: This theorem states that the shape of a crystal/nanoparticle at equilibrium is determined by the minimization of its total surface energy. The equilibrium shape (also known as the **Wulff Construction**) is the convex hull of the surfaces with the lowest energies.
 
@@ -57,9 +58,8 @@ For each symmetric Surface we need to go through the following path.
 <img width="968" alt="Screenshot 2024-10-22 at 8 00 01 PM" src="https://github.com/user-attachments/assets/8ef50116-698b-476e-b0db-ed8eb3596ee4">
 
 ### Detailed plan: ###
-1. We will break into groups of 3 students
-   
-3. Each group will be assigned a series of surfaces they will be responsible for
+
+We will break into groups of 3 students and each group will be assigned a series of surfaces they will be responsible for.
    
        a. {(0,1,2),(0,2,1),(2,1,0)}
 
@@ -71,8 +71,35 @@ For each symmetric Surface we need to go through the following path.
 
        e. {(2,1,1),(3,1,1),(4,1,1)}
 
-4. Build a surface
-5. Relax a surface
-6. k-point check (5x5x1) (15x15x1) (25x25x1)
-7. 
+0. Prep Work - bulk
+
+1. Generate Symmetric Surface Facet - 
+      - Build the surface facet - A surface facet is created by performing cleavage on a bulk material parallel to the miller index plane. As you can see from the image below, different surface terminations can be cut for the facets. For the high miller index facets we will be doing, many different terminations exist for each facet. We will need to make many of these terminations (at least the high oxygen coverage termination and the complementary termination) and select the lowest surface energy termination to be our reference moving forward.
+         - <img width="400" alt="Screenshot 2024-10-22 at 9 26 37 PM" src="https://github.com/user-attachments/assets/cd930976-0b4e-47f4-99cf-2d48ab1fafe4">
+         
+         - Build a facet that is approximately N=20
+           
+         - delete atoms until the facet has the desired termination on both sides
+           
+         - Constrain a stochiometric set of the center atoms
+
+         - check that the surface is inversion symmetric
+
+         - Save this surface based on number of bulk units in the slab
+
+         - Delete the outside 2 Ruthenium and 4 Oxygen from each side of the surface and save this surface. Save this surface based on the new number of bulk units in the slab. Do this so that you have a total of 4 of the same facet+termination surfaces at different sizes.
+
+      - Relax the surfaces
+
+2. Generate Asymmetric Surface Facet - 
+
+3. Adsorb - 
+
+4. Generate Pourbaix Diagram - 
+
+5. Copy most stable adsorbate configuration - 
+   - k-point convergence test: (1x1x1) (5x5x1) (15x15x1) (25x25x1)
+
+6. Calculate Surface Energy - 
+
 
