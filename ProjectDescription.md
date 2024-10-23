@@ -54,7 +54,7 @@ Goal: The main scientific goal is to probe the oxygen evolution reaction (OER) c
 
 For each symmetric Surface we need to go through the following path.
 
-<img width="958" alt="Screenshot 2024-10-22 at 7 23 03 PM" src="https://github.com/user-attachments/assets/dc8f80d2-f07c-4d43-8055-ea16aec4a15b">---
+<img width="968" alt="Screenshot 2024-10-22 at 8 00 01 PM" src="https://github.com/user-attachments/assets/8ef50116-698b-476e-b0db-ed8eb3596ee4">
 
 ### Detailed plan: ###
 1. We will break into groups of 3 students
