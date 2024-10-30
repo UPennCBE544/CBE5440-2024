@@ -8,6 +8,6 @@ General login information: [https://www.rcac.purdue.edu/knowledge/anvil/access/l
 Start by generating an [SSH key](https://www.rcac.purdue.edu/knowledge/anvil/access/login/sshkeys) by following the steps provided.
 
 ### Setting up environment
-Modify bashrc - Rachel will share a template with you
+Modify ~/.bashrc - Rachel will share a template with you
 
 
