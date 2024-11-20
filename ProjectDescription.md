@@ -78,13 +78,19 @@ We will break into groups of 2 students and each group will be assigned a series
 1. Generate Asymmetric Surface Facet - Provided by Rachel
 
 2. Adsorb on the Asymmetric Surface -
-      a. Copy this directory into your home: cp -r /home/x-rthatcher/scripts_Final_Project ~/
+      a. Copy this directory into your home:
+         ```bash
+         cp -r /home/x-rthatcher/scripts_Final_Project ~/
    
-      b. Open the reference trajectory file: ag /anvil/projects/x-eve210010/REFERENCES/dopedSurface/ruo2/YOUR_FACET/clean/No_defect/0%_doped/PBE/relax/init.traj
+      b. Open the reference trajectory file:
+         ```bash
+         ag /anvil/projects/x-eve210010/REFERENCES/dopedSurface/ruo2/YOUR_FACET/clean/No_defect/0%_doped/PBE/relax/init.traj
    
       c. Determine which metal/oxygen atom/s you want to adsorb onto. If you have 4 or more metal atoms at the surface, you will need to adsorb on 1, approximately half, and all of the surface sites.
    
-      d. Modify the Adsorption file to have YOUR_FACET and the indices of the atoms you want to adsorb on top of: nano /home/x-rthatcher/scripts_Final_Project/asymmetric_slabs/Adsorptions_Asymmetric.py
+      d. Modify the Adsorption file to have YOUR_FACET and the indices of the atoms you want to adsorb on top of:
+         ```bash
+         nano /home/x-rthatcher/scripts_Final_Project/asymmetric_slabs/Adsorptions_Asymmetric.py
       <img width="652" alt="Screenshot 2024-11-20 at 1 29 57 PM" src="https://github.com/user-attachments/assets/a0329922-7904-48bc-9184-1c28667a6898">
 
 4. Generate Pourbaix Diagram - 
