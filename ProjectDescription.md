@@ -79,7 +79,11 @@ We will break into groups of 2 students and each group will be assigned a series
 
 2. Adsorb on the Asymmetric Surface -
    
-      a. Copy this directory into your home: ```cp -r /home/x-rthatcher/scripts_Final_Project ~/```
+      a. Update the scripts directory in your home:
+
+         First remove the old scripts folder: ```rm -r ~/scripts_Final_Project``` 
+
+         Then copy the new one in: ```cp -r /anvil/projects/x-eve210010/scripts/scripts_Final_Project ~/```
    
       b. Open the reference trajectory file: ```ag /anvil/projects/x-eve210010/REFERENCES/dopedSurface/ruo2/YOUR_FACET/clean/No_defect/0%_doped/PBE/relax/init.traj```
    
@@ -90,9 +94,9 @@ We will break into groups of 2 students and each group will be assigned a series
 
       e. Run the Adsorption python script: ```python ~/scripts_Final_Project/asymmetric_slabs/Adsorptions_Asymmetric.py ```
 
-      f. Check on the ```init.traj``` files that were generated and listed after running the Adsorption python script.
+      f. Check on the ```init.traj``` files that were generated and listed after running the Adsorption python script. Do this by opening the files using ```ag FILE_PATH```
    
       g. Submit the jobs: ```python ~/scripts_Final_Project/asymmetric_slabs/submit_asymmetric.py ```
    
-3. Generate Pourbaix Diagram -
+4. Generate Pourbaix Diagram -
 
