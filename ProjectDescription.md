@@ -75,9 +75,9 @@ We will break into groups of 2 students and each group will be assigned a series
 
 0. Prep Work - we need a rutile RuO<sub>2</sub> bulk that is optimized
 
-1. Generate Asymmetric Surface Facet - Provided by Rachel
+2. Generate Asymmetric Surface Facet - Provided by Rachel
 
-2. Adsorb on the Asymmetric Surface -
+3. Adsorb on the Asymmetric Surface -
    
       a. Update the scripts directory in your home:
 
