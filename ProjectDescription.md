@@ -91,7 +91,7 @@ We will break into groups of 2 students and each group will be assigned a series
    
       c. Determine which metal/oxygen atom/s you want to adsorb onto. If you have 4 or more metal atoms at the surface, you will need to adsorb on 1, approximately half, and all of the surface sites. We tend to adsorb on metal atoms, however, if there is an oxygen on top of the metal atom, we will instead adsorb on that oxygen.
    
-      d. Modify the Adsorption file (in the last few lines) to have YOUR_FACET and the indices of the atoms you want to adsorb on top of: ```nano /home/x-rthatcher/scripts_Final_Project/asymmetric_slabs/Adsorptions_Asymmetric.py ```
+      d. Modify the Adsorption file (in the last few lines) to have YOUR_FACET and the indices of the atoms you want to adsorb on top of: ```nano ~/scripts_Final_Project/asymmetric_slabs/Adsorptions_Asymmetric.py ```
       <img width="652" alt="Screenshot 2024-11-20 at 1 29 57 PM" src="https://github.com/user-attachments/assets/a0329922-7904-48bc-9184-1c28667a6898">
 
       e. Run the Adsorption python script: ```python ~/scripts_Final_Project/asymmetric_slabs/Adsorptions_Asymmetric.py ```
