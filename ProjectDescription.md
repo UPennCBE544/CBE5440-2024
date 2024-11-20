@@ -61,11 +61,11 @@ For each symmetric Surface we need to go through the following path.
 
 We will break into groups of 2 students and each group will be assigned a series of surfaces they will be responsible for.
    
-       a. {(2,2,1),(3,3,1),(4,4,1),(0,1,2)}
+       a. {(2,2,1),(3,3,1),(4,4,1),(0,1,2)} - Group 1
 
-       b. {(1,2,2),(1,3,3),(1,4,4),(0,2,1)}
+       b. {(1,2,2),(1,3,3),(1,4,4),(0,2,1)} - Group 2
 
-       c. {(2,1,1),(3,1,1),(4,1,1),(2,1,0)}
+       c. {(2,1,1),(3,1,1),(4,1,1),(2,1,0)} - Group 3
 
        Groups: 
          (1) Conor & Erika
