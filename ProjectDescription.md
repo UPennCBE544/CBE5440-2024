@@ -77,7 +77,7 @@ We will break into groups of 2 students and each group will be assigned a series
 
 2. Generate Asymmetric Surface Facet - Provided by Rachel
 
-3. Adsorb on the Asymmetric Surface -
+3. Adsorb on the Asymmetric Surface at up to 3 adsorbate coverages -
    
       a. Update the Adsorption script in your home:
 
