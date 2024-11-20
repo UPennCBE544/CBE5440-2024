@@ -82,7 +82,7 @@ We will break into groups of 2 students and each group will be assigned a series
       b. Open the reference trajectory file: ag /anvil/projects/x-eve210010/REFERENCES/dopedSurface/ruo2/YOUR_FACET/clean/No_defect/0%_doped/PBE/relax/init.traj
       c. Determine which metal/oxygen atom/s you want to adsorb onto
       d. Modify the Adsorption file to have YOUR_FACET and the indices of the atoms you want to adsorb on top of: nano /home/x-rthatcher/scripts_Final_Project/asymmetric_slabs/Adsorptions_Asymmetric.py
-<img width="652" alt="Screenshot 2024-11-20 at 1 29 57 PM" src="https://github.com/user-attachments/assets/a0329922-7904-48bc-9184-1c28667a6898">
+      <img width="652" alt="Screenshot 2024-11-20 at 1 29 57 PM" src="https://github.com/user-attachments/assets/a0329922-7904-48bc-9184-1c28667a6898">
 
 4. Generate Pourbaix Diagram - 
 
