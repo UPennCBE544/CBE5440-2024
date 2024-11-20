@@ -83,7 +83,7 @@ We will break into groups of 2 students and each group will be assigned a series
 
          - First remove the old scripts folder: rm -r ~/scripts_Final_Project
 
-         - Copy over the adsorption script to your home (you only need this adsorption script): cp /anvil/projects/x-eve210010/scripts/scripts_Final_Project/asymmetric_slabs/Adsorptions_Asymmetric.py ~/
+         - Copy over the adsorption script to your home: cp -r /anvil/projects/x-eve210010/scripts/scripts_Final_Project ~/
    
       b. Open the reference trajectory file: ```ag /anvil/projects/x-eve210010/REFERENCES/dopedSurface/ruo2/YOUR_FACET/clean/No_defect/0%_doped/PBE/relax/init.traj```
    
