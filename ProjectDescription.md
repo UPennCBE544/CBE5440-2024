@@ -74,6 +74,8 @@ We will break into groups of 2 students and each group will be assigned a series
          (4) Yeri & Achala
 
 
+<img width="274" alt="Screenshot 2024-11-20 at 2 58 56 PM" src="https://github.com/user-attachments/assets/527de129-a4fa-4f4b-b8a6-6bfef077d897">
+
 0. Prep Work - we need a rutile RuO<sub>2</sub> bulk that is optimized
 
 2. Generate Asymmetric Surface Facet - Provided by Rachel
