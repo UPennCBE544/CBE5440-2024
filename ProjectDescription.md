@@ -75,28 +75,20 @@ We will break into groups of 2 students and each group will be assigned a series
 
 0. Prep Work - we need a rutile RuO<sub>2</sub> bulk that is optimized
 
-1. Generate Symmetric Surface Facet - 
-      - Background: A surface facet is created by performing cleavage on a bulk material parallel to the miller index plane. As you can see from the image below, different surface terminations can be cut for the facets. For the high miller index facets we will be doing, many different terminations exist for each facet. We will need to make many of these terminations (at least the high oxygen coverage termination and the complementary termination) and select the lowest surface energy termination to be our reference moving forward.
-         - <img width="400" alt="Screenshot 2024-10-22 at 9 26 37 PM" src="https://github.com/user-attachments/assets/cd930976-0b4e-47f4-99cf-2d48ab1fafe4">
-      - Steps to generating the symmetric surface facets:
-           1. Build a facet that is approximately N=20  
-           2. Delete atoms until the facet has the desired termination on both sides
-           3. Constrain a stochiometric set of the center atoms
-           4. Reset the vacuum to be 10 angstroms on each side of the slab
-           5. Check that the surface is inversion symmetric
-           6. Save this surface based on number of bulk units in the slab
-           7. Delete the **outside** 2 Ruthenium and 4 Oxygen from each side of the surface. Save this surface based on the new number of bulk units in the slab. Do this so that you have a total of 4 of the same facet+termination surfaces at different sizes.
-           8. Relax the surfaces
+1. Generate Asymmetric Surface Facet - Provided by Rachel
 
-2. Generate Asymmetric Surface Facet - 
+2. Adsorb on the Asymmetric Surface -
+      a. Copy this directory into your home: cp -r /home/x-rthatcher/scripts_Final_Project ~/
+      b. Open the reference trajectory file: ag /anvil/projects/x-eve210010/REFERENCES/dopedSurface/ruo2/YOUR_FACET/clean/No_defect/0%_doped/PBE/relax/init.traj
+      c. Determine which metal/oxygen atom/s you want to adsorb onto
+      d. Modify the Adsorption file to have YOUR_FACET and the indices of the atoms you want to adsorb on top of: nano /home/x-rthatcher/scripts_Final_Project/asymmetric_slabs/Adsorptions_Asymmetric.py
+<img width="652" alt="Screenshot 2024-11-20 at 1 29 57 PM" src="https://github.com/user-attachments/assets/a0329922-7904-48bc-9184-1c28667a6898">
 
-3. Adsorb -
+4. Generate Pourbaix Diagram - 
 
-5. Generate Pourbaix Diagram - 
-
-6. Copy most stable adsorbate configuration - 
+5. Copy most stable adsorbate configuration - 
    - k-point convergence test: (1x1x1) (5x5x1) (15x15x1) (25x25x1)
 
-7. Calculate Surface Energy - 
+6. Calculate Surface Energy - 
 
 
