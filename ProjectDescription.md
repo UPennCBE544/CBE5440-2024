@@ -113,7 +113,7 @@ We will break into groups of 2 students and each group will be assigned a series
 
             Now run the script again: python ~/scripts_Final_Project/asymmetric_slabs/submit_asymmetric.py
 
-            After one submission, modify your own submission script so that submit = False: nano ~/scripts_Final_Project/asymmetric_slabs/submit_asymmetric.py
+            After submission, modify your own submission script so that submit = False: nano ~/scripts_Final_Project/asymmetric_slabs/submit_asymmetric.py
 
       j. As jobs are completing you can run this python script that will make ```opt.traj``` files out of finished jobs: ```python /anvil/projects/x-eve210010/scripts/scripts_Final_Project/asymmetric_slabs/LOGTRAJ.py``` 
    
