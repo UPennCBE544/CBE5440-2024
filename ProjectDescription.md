@@ -97,6 +97,8 @@ We will break into groups of 2 students and each group will be assigned a series
       e. Run the Adsorption python script: ```python ~/scripts_Final_Project/asymmetric_slabs/Adsorptions_Asymmetric.py ```
 
       f. Check on the ```init.traj``` files that were generated and listed after running the Adsorption python script. Do this by opening the files using ```ag FILE_PATH```
+
+      g. Repeate b-f for your second facet.
    
       g. Submit the jobs: (jobs submit one every 10 seconds, so be patient)
             Run this to confirm the directories you want to submit from are listed: ```python ~/scripts_Final_Project/asymmetric_slabs/submit_asymmetric.py ```
