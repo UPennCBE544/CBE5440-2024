@@ -83,18 +83,22 @@ We will break into groups of 2 students and each group will be assigned a series
    
       b. Open the reference trajectory file: ```ag /anvil/projects/x-eve210010/REFERENCES/dopedSurface/ruo2/YOUR_FACET/clean/No_defect/0%_doped/PBE/relax/init.traj```
    
-      c. Determine which metal/oxygen atom/s you want to adsorb onto. If you have 4 or more metal atoms at the surface, you will need to adsorb on 1, approximately half, and all of the surface sites.
+      c. Determine which metal/oxygen atom/s you want to adsorb onto. If you have 4 or more metal atoms at the surface, you will need to adsorb on 1, approximately half, and all of the surface sites. We tend to adsorb on metal atoms, however, if there is an oxygen on top of the metal atom, we will instead adsorb on that oxygen.
    
       d. Modify the Adsorption file to have YOUR_FACET and the indices of the atoms you want to adsorb on top of: ```nano /home/x-rthatcher/scripts_Final_Project/asymmetric_slabs/Adsorptions_Asymmetric.py ```
       <img width="652" alt="Screenshot 2024-11-20 at 1 29 57 PM" src="https://github.com/user-attachments/assets/a0329922-7904-48bc-9184-1c28667a6898">
 
       e. Run the Adsorption python script: ```python /home/x-rthatcher/scripts_Final_Project/asymmetric_slabs/Adsorptions_Asymmetric.py ```
-   
-4. Generate Pourbaix Diagram - 
 
-5. Copy most stable adsorbate configuration - 
+      f. Check on the ```init.traj``` files that were generated and listed after running the Adsorption python script.
+   
+      g. Submit the jobs: ```python ~/scripts_Final_Project/asymmetric_slabs/submit_asymmetric.py ```
+   
+4. Generate Pourbaix Diagram -
+
+6. Copy most stable adsorbate configuration - 
    - k-point convergence test: (1x1x1) (5x5x1) (15x15x1) (25x25x1)
 
-6. Calculate Surface Energy - 
+7. Calculate Surface Energy - 
 
 
