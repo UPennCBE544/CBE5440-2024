@@ -81,9 +81,9 @@ We will break into groups of 2 students and each group will be assigned a series
    
       a. Update the scripts directory in your home:
 
-         First remove the old scripts folder: ```rm -r ~/scripts_Final_Project``` 
+         - First remove the old scripts folder: rm -r ~/scripts_Final_Project
 
-         Then copy the new one in: ```cp -r /anvil/projects/x-eve210010/scripts/scripts_Final_Project ~/```
+         - Then copy the new one in: cp -r /anvil/projects/x-eve210010/scripts/scripts_Final_Project ~/
    
       b. Open the reference trajectory file: ```ag /anvil/projects/x-eve210010/REFERENCES/dopedSurface/ruo2/YOUR_FACET/clean/No_defect/0%_doped/PBE/relax/init.traj```
    
