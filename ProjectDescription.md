@@ -88,17 +88,11 @@ We will break into groups of 2 students and each group will be assigned a series
       d. Modify the Adsorption file to have YOUR_FACET and the indices of the atoms you want to adsorb on top of: ```nano /home/x-rthatcher/scripts_Final_Project/asymmetric_slabs/Adsorptions_Asymmetric.py ```
       <img width="652" alt="Screenshot 2024-11-20 at 1 29 57 PM" src="https://github.com/user-attachments/assets/a0329922-7904-48bc-9184-1c28667a6898">
 
-      e. Run the Adsorption python script: ```python /home/x-rthatcher/scripts_Final_Project/asymmetric_slabs/Adsorptions_Asymmetric.py ```
+      e. Run the Adsorption python script: ```python ~/scripts_Final_Project/asymmetric_slabs/Adsorptions_Asymmetric.py ```
 
       f. Check on the ```init.traj``` files that were generated and listed after running the Adsorption python script.
    
       g. Submit the jobs: ```python ~/scripts_Final_Project/asymmetric_slabs/submit_asymmetric.py ```
    
-4. Generate Pourbaix Diagram -
-
-6. Copy most stable adsorbate configuration - 
-   - k-point convergence test: (1x1x1) (5x5x1) (15x15x1) (25x25x1)
-
-7. Calculate Surface Energy - 
-
+3. Generate Pourbaix Diagram -
 
