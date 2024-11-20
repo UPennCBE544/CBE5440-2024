@@ -101,7 +101,7 @@ We will break into groups of 2 students and each group will be assigned a series
 
       g.**Do the other coverages that need to be generated (reminder: we want to do 1 adsorbate, approximately half adsorbed, and all adsorbed).** Below shows the max number of sites you can adsorb onto.
    
-<img width="274" alt="Screenshot 2024-11-20 at 2 58 56 PM" src="https://github.com/user-attachments/assets/ab4a5c37-80af-4164-926c-ac5f61427896">
+         <img width="274" alt="Screenshot 2024-11-20 at 2 58 56 PM" src="https://github.com/user-attachments/assets/ab4a5c37-80af-4164-926c-ac5f61427896">
 
       h. **Repeate b-f for your second facet.**
    
