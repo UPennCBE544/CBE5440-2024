@@ -73,6 +73,7 @@ We will break into groups of 2 students and each group will be assigned a series
          (3) Shiqiang & Jinyu
          (4) Yeri & Achala
 
+
 0. Prep Work - we need a rutile RuO<sub>2</sub> bulk that is optimized
 
 2. Generate Asymmetric Surface Facet - Provided by Rachel
@@ -99,6 +100,7 @@ We will break into groups of 2 students and each group will be assigned a series
       f. Check on the ```init.traj``` files that were generated and listed after running the Adsorption python script. Do this by opening the files using ```ag FILE_PATH```
 
       g.**Do the other coverages that need to be generated (reminder: we want to do 1 adsorbate, approximately half adsorbed, and all adsorbed)**
+      <img width="274" alt="Screenshot 2024-11-20 at 2 58 56 PM" src="https://github.com/user-attachments/assets/3bd5935b-ba83-4f9a-803d-0f64989dd2cf">
 
       h. **Repeate b-f for your second facet.**
    
