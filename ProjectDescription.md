@@ -100,13 +100,13 @@ We will break into groups of 2 students and each group will be assigned a series
 
       g. Repeate b-f for your second facet.
    
-      g. Submit the jobs: (jobs submit one every 10 seconds, so be patient)
+      h. Submit the jobs: (jobs submit one every 10 seconds, so be patient)
             Run this to confirm the directories you want to submit from are listed: ```python ~/scripts_Final_Project/asymmetric_slabs/submit_asymmetric.py ```
             Modify your own submission script so that ```submit = True```: ```nano ~/scripts_Final_Project/asymmetric_slabs/submit_asymmetric.py ```
             Now run the script again: ```python ~/scripts_Final_Project/asymmetric_slabs/submit_asymmetric.py ```
             After one submission, modify your own submission script so that ```submit = False```: ```nano ~/scripts_Final_Project/asymmetric_slabs/submit_asymmetric.py ```
 
-      h. As jobs are completing you can run this python script that will make ```opt.traj``` files out of finished jobs: ```python /anvil/projects/x-eve210010/scripts/scripts_Final_Project/asymmetric_slabs/LOGTRAJ.py``` 
+      i. As jobs are completing you can run this python script that will make ```opt.traj``` files out of finished jobs: ```python /anvil/projects/x-eve210010/scripts/scripts_Final_Project/asymmetric_slabs/LOGTRAJ.py``` 
    
 5. Generate Pourbaix Diagram -
 
