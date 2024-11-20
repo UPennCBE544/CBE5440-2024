@@ -99,10 +99,8 @@ We will break into groups of 2 students and each group will be assigned a series
 
       f. Check on the ```init.traj``` files that were generated and listed after running the Adsorption python script. Do this by opening the files using ```ag FILE_PATH```
 
-      g.**Do the other coverages that need to be generated (reminder: we want to do 1 adsorbate, approximately half adsorbed, and all adsorbed).** Below shows the max number of sites you can adsorb onto.
+      g.**Do the other coverages that need to be generated (reminder: we want to do 1 adsorbate, approximately half adsorbed, and all adsorbed).** The grey and white table above shows the max number of sites you can adsorb onto.
    
-         <img width="274" alt="Screenshot 2024-11-20 at 2 58 56 PM" src="https://github.com/user-attachments/assets/ab4a5c37-80af-4164-926c-ac5f61427896">
-
       h. **Repeate b-f for your second facet.**
    
       i. Submit the jobs: (jobs submit one every 10 seconds, so be patient)
