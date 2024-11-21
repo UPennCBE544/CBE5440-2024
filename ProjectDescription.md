@@ -127,7 +127,7 @@ We will break into groups of 2 students and each group will be assigned a series
 
       c. Now a pourbaix diagram was generated and saved in ```/anvil/projects/x-eve210010/scripts/scripts_Final_Project/asymmetric_slabs/Pourbaix/Pourbaix_Diagrams/full_diagrams/pH=1``` and the legend is coped into this folder for better viewing ```/anvil/projects/x-eve210010/scripts/scripts_Final_Project/asymmetric_slabs/Pourbaix/Pourbaix_Diagrams/Legend```
 
-      d. We can pull the most stable configurations of the surface: ```/anvil/projects/x-eve210010/scripts/scripts_Final_Project/asymmetric_slabs/Pourbaix/pull_most_stable.py```
+      d. We can pull the most stable configurations of the surface: ```python /anvil/projects/x-eve210010/scripts/scripts_Final_Project/asymmetric_slabs/Pourbaix/pull_most_stable.py```
 
    
 
