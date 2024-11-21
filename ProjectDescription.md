@@ -103,7 +103,7 @@ We will break into groups of 2 students and each group will be assigned a series
 
       f. Check on the ```init.traj``` files that were generated and listed after running the Adsorption python script. Do this by opening the files using ```ag FILE_PATH```
 
-      g.**Do the other coverages that need to be generated (reminder: we want to do 1 adsorbate, approximately half adsorbed, and all adsorbed).** The grey and white table above shows the max number of sites you can adsorb onto.
+      g. **Do the other coverages that need to be generated (reminder: we want to do 1 adsorbate, approximately half adsorbed, and all adsorbed).** The grey and white table above shows the max number of sites you can adsorb onto.
    
       h. **Repeate b-f for your second facet.**
    
@@ -119,5 +119,15 @@ We will break into groups of 2 students and each group will be assigned a series
 
       j. As jobs are completing you can run this python script that will make ```opt.traj``` files out of finished jobs: ```python /anvil/projects/x-eve210010/scripts/scripts_Final_Project/asymmetric_slabs/LOGTRAJ.py``` 
    
-5. Generate Pourbaix Diagram -
+4. Generate Pourbaix Diagram -
+   
+      a. Modify the Pourbaix Script to use your own FACET: ```nano ~/scripts_Final_Project/asymmetric_slabs/Pourbaix/Pourbaix_Electrochemical.py```
+   
+      b. Run the script: ```python ~/scripts_Final_Project/asymmetric_slabs/Pourbaix/Pourbaix_Electrochemical.py```
+
+      c. Now a pourbaix diagram was generated and saved in ```/anvil/projects/x-eve210010/scripts/scripts_Final_Project/asymmetric_slabs/Pourbaix/Pourbaix_Diagrams/full_diagrams/pH=1``` and the legend is coped into this folder for better viewing ```/anvil/projects/x-eve210010/scripts/scripts_Final_Project/asymmetric_slabs/Pourbaix/Pourbaix_Diagrams/Legend```
+
+      d. We can pull the most stable configurations of the surface: ```/anvil/projects/x-eve210010/scripts/scripts_Final_Project/asymmetric_slabs/Pourbaix/pull_most_stable.py```
+
+   
 
