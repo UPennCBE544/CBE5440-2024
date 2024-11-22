@@ -67,6 +67,8 @@ We will break into groups of 2 students and each group will be assigned a series
 
        c. {(2,1,1),(3,1,1),(4,1,1),(2,1,0)} - Group 3
 
+       d. {(1,1,5),(1,5,5)}
+
        Groups: 
          (1) Conor & Erika
          (2) Daniel & George
