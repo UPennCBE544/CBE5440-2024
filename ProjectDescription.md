@@ -109,7 +109,7 @@ We will break into groups of 2 students and each group will be assigned a series
 
       i. Now copy over clean/No_defect surface from shared scratch to your directory structure for BOTH facets:
 
-         1. Make sure to specify YOUR_USERNAME and your YOUR_FACET in this line: mkdir /anvil/scratch/YOUR_USERNAME/Final_Project_2024/dopedSurface/ruo2/YOUR_FACET/clean/No_defect/0%_doped/PBE
+         1. Make sure to specify YOUR_USERNAME and your YOUR_FACET in this line: mkdir -p /anvil/scratch/YOUR_USERNAME/Final_Project_2024/dopedSurface/ruo2/YOUR_FACET/clean/No_defect/0%_doped/PBE
    
          2. Copy the init.traj from the shared scratch (again make sure to use YOUR_FACET and YOUR_USERNAME): cp /anvil/projects/x-eve210010/REFERENCES/dopedSurface/ruo2/YOUR_FACET/clean/No_defect/0%_doped/PBE/relax/init.traj /anvil/scratch/YOUR_USERNAME/Final_Project_2024/dopedSurface/ruo2/YOUR_FACET/clean/No_defect/0%_doped/PBE
    
