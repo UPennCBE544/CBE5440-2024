@@ -106,6 +106,12 @@ We will break into groups of 2 students and each group will be assigned a series
       g. **Do the other coverages that need to be generated (reminder: we want to do 1 adsorbate, approximately half adsorbed, and all adsorbed).** The grey and white table above shows the max number of sites you can adsorb onto.
    
       h. **Repeate b-f for your second facet.**
+
+      i. NEED TO ADD CLEAN/NODEFECT surface to your directory structure for both facets:
+
+         1. Make sure to specify YOUR_USERNAME and your YOUR_FACET in this line: mkdir /anvil/scratch/YOUR_USERNAME/Final_Project_2024/dopedSurface/ruo2/YOUR_FACET/clean/No_defect/0%_doped/PBE
+   
+         2. 
    
       i. Submit the jobs: (jobs submit one every 10 seconds, so be patient)
 
@@ -119,7 +125,7 @@ We will break into groups of 2 students and each group will be assigned a series
 
       j. As jobs are completing you can run this python script that will make ```opt.traj``` files out of finished jobs: ```python /anvil/projects/x-eve210010/scripts/scripts_Final_Project/asymmetric_slabs/LOGTRAJ.py``` 
    
-4. Generate Pourbaix Diagram -
+5. Generate Pourbaix Diagram -
    
       a. Modify the Pourbaix Script to use your own FACET: ```nano ~/scripts_Final_Project/asymmetric_slabs/Pourbaix/Pourbaix_Electrochemical.py```
    
