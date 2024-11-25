@@ -144,4 +144,10 @@ We will break into groups of 2 students and each group will be assigned a series
     
    b. Copy clean symmetric surfaces for both facets into your own directory structure: ``` cp /anvil/projects/x-eve210010/REFERENCES/dopedSurface/ruo2/sym_surf/YOUR_FACET /anvil/scratch/YOUR_USERNAME/Final_Project_2024/dopedSurface/ruo2/sym_surf/ ```
 
-   c. 
+   c. Copy this folder to your scripts:
+
+         1. ```mv ~/scripts/scripts_Final_Project/symmetric_slabs ~/scripts/scripts_Final_Project/symmetric_slabs_old```
+   
+         2. ```cp -r /anvil/projects/x-eve210010/scripts/scripts_Final_Project/symmetric_slabs/ ~/scripts/scripts_Final_Project```
+
+         3. 
