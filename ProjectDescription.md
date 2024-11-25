@@ -79,7 +79,7 @@ We will break into groups of 2 students and each group will be assigned a series
          (3) Shiqiang & Jinyu
          (4) Yeri & Achala
 
-      Nanoparticles: 
+      Nanoparticle Conditions: 
          Group 1 - pH = 1, U = 0
          Group 2 - pH = 1, U = 1.3
          Group 3 - pH = 1, U = 1.6
