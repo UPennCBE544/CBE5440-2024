@@ -9,6 +9,7 @@ permalink: /Project/
 2. [Motivation](#MO)
 3. [Terms to Know](#Terms)
 4. [Plan](#Plan)
+5. [Rubrics](https://github.com/UPennCBE544/CBE5440-2024/tree/main/Final_Project)
 
 Turn in your final report on CANVAS or email to:
 
