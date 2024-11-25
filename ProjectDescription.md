@@ -142,7 +142,7 @@ We will break into groups of 2 students and each group will be assigned a series
 
    a. Make a ```sym_surf``` directory: ``` mkdir -p /anvil/scratch/YOUR_USERNAME/Final_Project_2024/dopedSurface/ruo2/sym_surf/ ```
     
-   b. Copy clean symmetric surfaces for both facets into your own directory structure: ``` cp /anvil/projects/x-eve210010/REFERENCES/dopedSurface/ruo2/sym_surf/YOUR_FACET /anvil/scratch/YOUR_USERNAME/Final_Project_2024/dopedSurface/ruo2/sym_surf/ ```
+   b. Copy clean symmetric surfaces for both facets into your own directory structure: ```cp /anvil/projects/x-eve210010/REFERENCES/dopedSurface/ruo2/sym_surf/YOUR_FACET /anvil/scratch/YOUR_USERNAME/Final_Project_2024/dopedSurface/ruo2/sym_surf/ ```
 
    c. Copy this folder to your scripts:
 
@@ -150,4 +150,11 @@ We will break into groups of 2 students and each group will be assigned a series
    
          2. cp -r /anvil/projects/x-eve210010/scripts/scripts_Final_Project/symmetric_slabs/ ~/scripts/scripts_Final_Project
 
-         3. 
+   d. Modify this script to have your facet and your adsorbate configuration you want to map:
+   
+         1. Make modifications: nano ~/scripts/scripts_Final_Project/symmetric_slabs/adsorbate_map.py
+
+         2. Run the script: python ~/scripts/scripts_Final_Project/symmetric_slabs/adsorbate_map.py
+
+   e. Do this for the rest of the adsorbate configurations you want to map
+
