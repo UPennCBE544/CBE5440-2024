@@ -146,15 +146,15 @@ We will break into groups of 2 students and each group will be assigned a series
 
    c. Copy this folder to your scripts:
 
-         1. mv ~/scripts/scripts_Final_Project/symmetric_slabs ~/scripts/scripts_Final_Project/symmetric_slabs_old
+         1. mv ~/scripts_Final_Project/symmetric_slabs ~/scripts_Final_Project/symmetric_slabs_old
    
-         2. cp -r /anvil/projects/x-eve210010/scripts/scripts_Final_Project/symmetric_slabs/ ~/scripts/scripts_Final_Project
+         2. cp -r /anvil/projects/x-eve210010/scripts/scripts_Final_Project/symmetric_slabs/ ~/scripts_Final_Project
 
    d. Modify this script to have your facet and your adsorbate configuration you want to map:
    
-         1. Make modifications: nano ~/scripts/scripts_Final_Project/symmetric_slabs/adsorbate_map.py
+         1. Make modifications: nano ~/scripts_Final_Project/symmetric_slabs/adsorbate_map.py
 
-         2. Run the script: python ~/scripts/scripts_Final_Project/symmetric_slabs/adsorbate_map.py
+         2. Run the script: python ~/scripts_Final_Project/symmetric_slabs/adsorbate_map.py
 
    e. Do this for the rest of the adsorbate configurations you want to map
 
