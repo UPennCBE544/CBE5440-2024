@@ -10,7 +10,7 @@ permalink: /Project/
 3. [Terms to Know](#Terms)
 4. [Plan](#Plan)
 
-Turn in your final report on CANVAS:
+Turn in your final report on CANVAS or email to:
 
 ```
 alevoj@seas.upenn.edu, rthatch@seas.upenn.edu
