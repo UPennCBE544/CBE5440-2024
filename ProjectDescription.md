@@ -10,7 +10,7 @@ permalink: /Project/
 3. [Terms to Know](#Terms)
 4. [Plan](#Plan)
 5. [Final Presentation Rubric](https://github.com/UPennCBE544/CBE5440-2024/blob/main/Final_Project/CBE%205440%20-%20Final%20Project%20-%20Presentation%20Rubric%20and%20Expectations%20Sheet.pdf)
-6. [Final Report Rubric]([https://github.com/UPennCBE544/CBE5440-2024/tree/main/Final_Project](https://github.com/UPennCBE544/CBE5440-2024/blob/main/Final_Project/CBE%205440%20-%20Final%20Project%20-%20Report.pdf))
+6. [Final Report Rubric](https://github.com/UPennCBE544/CBE5440-2024/blob/main/Final_Project/CBE%205440%20-%20Final%20Project%20-%20Report.pdf)
 
 Turn in your final report on CANVAS or email to:
 
