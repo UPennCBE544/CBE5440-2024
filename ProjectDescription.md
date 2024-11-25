@@ -158,3 +158,13 @@ We will break into groups of 2 students and each group will be assigned a series
 
    e. Do this for the rest of the adsorbate configurations you want to map
 
+   f. Submit the jobs: (jobs submit one every 10 seconds, so be patient)
+
+            Run this to confirm the directories you want to submit from are listed: python ~/scripts_Final_Project/symmetric_slabs/submit_symmetric.py
+
+            Modify your own submission script so that submit = True: nano ~/scripts_Final_Project/symmetric_slabs/submit_symmetric.py
+
+            Now run the script again: python ~/scripts_Final_Project/symmetric_slabs/submit_symmetric.py
+
+            After submission, modify your own submission script so that submit = False: nano ~/scripts_Final_Project/symmetric_slabs/submit_symmetric.py
+
