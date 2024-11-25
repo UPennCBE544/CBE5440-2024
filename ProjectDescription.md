@@ -71,13 +71,18 @@ We will break into groups of 2 students and each group will be assigned a series
 
        c. {(2,1,1),(3,1,1),(4,1,1),(2,1,0)} - Group 3
 
-       d. {(1,1,5),(1,5,5)}
+       d. {(1,1,5),(1,5,5),(1,1,2),(1,1,3)} - Group 4
 
        Groups: 
          (1) Conor & Erika
          (2) Daniel & George
          (3) Shiqiang & Jinyu
          (4) Yeri & Achala
+
+      Nanoparticles: 
+         Group 1 - pH = 1, U = 0
+         Group 2 - pH = 1, U = 1.3
+         Group 3 - pH = 1, U = 1.6
 
 
 <img width="274" alt="Screenshot 2024-11-20 at 2 58 56 PM" src="https://github.com/user-attachments/assets/527de129-a4fa-4f4b-b8a6-6bfef077d897">
